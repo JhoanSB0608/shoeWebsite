@@ -44,3 +44,58 @@ Etiquetas de HTML:
 <div class="watch"> - Define una sección de reloj.
 <div class="play-icon"> - Define un icono de reproducción.
 <i> - Define un icono.
+
+
+CSS:
+
+Funciones:
+
+rgba() - Define un color utilizando valores de rojo, verde, azul y un valor alfa para la transparencia.
+Ejemplo: background: rgba(255, 255, 255, 0.3); establece un color de fondo blanco con una opacidad del 30%.
+
+Clases y Selectores:
+.container - Selecciona elementos con la clase "container".
+.menu - Selecciona elementos con la clase "menu".
+.search-icon - Selecciona elementos con la clase "search-icon".
+.logo - Selecciona elementos con la clase "logo".
+.nav-btn - Selecciona elementos con la clase "nav-btn".
+.footer - Selecciona elementos con la clase "footer".
+.play-icon - Selecciona elementos con la clase "play-icon".
+header::before - Selecciona el pseudo-elemento ::before del elemento <header>.
+header::after - Selecciona el pseudo-elemento ::after del elemento <header>.
+.body - Selecciona elementos con la clase "body".
+
+Propiedades CSS:
+margin - Establece los márgenes externos de un elemento.
+padding - Establece el espacio entre el borde de un elemento y su contenido.
+font-family - Define la familia de fuentes utilizada para el texto.
+background - Define el color de fondo de un elemento.
+color - Define el color del texto.
+z-index - Define el orden de apilamiento de un elemento en relación con otros elementos.
+position - Especifica el método de posicionamiento utilizado para un elemento.
+display - Especifica el comportamiento de visualización de un elemento.
+align-items - Alinea los elementos flexibles dentro de un contenedor flex en el eje transversal.
+grid-template-columns - Especifica las columnas de un grid.
+justify-content - Alinea los elementos flexibles dentro de un contenedor flex a lo largo del eje principal.
+list-style-type - Especifica el tipo de viñeta o numeración de una lista.
+text-decoration - Especifica la decoración del texto.
+text-transform - Especifica cómo se debe transformar el texto.
+border-radius - Define el radio de las esquinas de un borde.
+transition - Especifica cómo se deben animar los cambios en las propiedades CSS.
+width - Establece el ancho de un elemento.
+height - Establece la altura de un elemento.
+border - Define un borde alrededor de un elemento.
+outline - Establece una línea alrededor de un elemento.
+cursor - Especifica el tipo de cursor que se mostrará cuando se pase el ratón sobre un elemento.
+font-size - Establece el tamaño de fuente del texto.
+letter-spacing - Establece el espaciado entre caracteres.
+line-height - Establece la altura de línea para el texto.
+overflow - Especifica cómo manejar el contenido que desborda el elemento.
+transform - Aplica una transformación a un elemento.
+filter - Aplica efectos visuales a un elemento.
+box-shadow - Agrega una sombra alrededor de un elemento.
+nth-child() - Selecciona el enésimo hijo de su elemento padre.
+max-width - Establece el ancho máximo de un elemento.
+margin-right - Establece el margen derecho de un elemento.
+text-align - Establece la alineación del texto dentro de un elemento.
+box-sizing - Define cómo se deben calcular el ancho y alto de un elemento.
