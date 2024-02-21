@@ -99,3 +99,29 @@ max-width - Establece el ancho máximo de un elemento.
 margin-right - Establece el margen derecho de un elemento.
 text-align - Establece la alineación del texto dentro de un elemento.
 box-sizing - Define cómo se deben calcular el ancho y alto de un elemento.
+
+
+JavaScript:
+
+Funciones:
+
+document.querySelector() - Una función que selecciona el primer elemento que coincida con un selector CSS especificado en el documento.
+Ejemplo: const menu = document.querySelector(".menu") selecciona el primer elemento con la clase "menu" y lo guarda en la variable menu.
+
+addEventListener() - Un método que agrega un evento a un elemento HTML y especifica una función que se ejecutará cuando ocurra el evento.
+Ejemplo:
+menuBtn.addEventListener("click", () => {
+    menu.classList.toggle('nav-toggle');
+});
+Agrega un evento de clic al elemento con la clase "menu-btn". Cuando se hace clic en ese elemento, la función de flecha se ejecutará. Esta función toggle (alternar) la clase 'nav-toggle' en el elemento con la clase "menu".
+
+Clases:
+.menu - Clase CSS utilizada para seleccionar elementos HTML que representan el menú.
+.menu-btn - Clase CSS utilizada para seleccionar elementos HTML que representan el botón del menú.
+
+Métodos:
+classList.toggle() - Un método que alterna (agrega o quita) una clase en un elemento HTML.
+Ejemplo: menu.classList.toggle('nav-toggle'); alterna la presencia de la clase 'nav-toggle' en el elemento guardado en la variable menu. Si la clase está presente, la quita; si no está presente, la agrega. Esto se activa cada vez que se hace clic en el botón del menú.
+
+
+
